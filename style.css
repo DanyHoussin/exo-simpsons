@@ -1,7 +1,4 @@
-#wrapper{
-    background-color: gold;
-    padding: 0 15%;
-}
+
 
 *{
     box-sizing: border-box;
@@ -15,10 +12,14 @@
 =====================================================
  */
 
+
+ #wrapper{
+    background-color: gold;
+    padding: 0 15%;
+}
  
 
 header, main, footer{
-    margin : -10px;
     padding : 0px;
     background-color: white;
 }
@@ -153,5 +154,100 @@ aside figure{
     color: white;
     background-color: #1d3f88;
     position:sticky;
-    right: 10%;
 }
+
+@media only screen and (max-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+
+    #wrapper{
+        background-color: gold;
+        padding: 0% 0%;
+    }
+
+/* 
+=====================================================
+======================= HEADER ======================
+=====================================================
+ */
+
+ .headetfooter{
+    text-align:center;
+    width: 100%;
+}
+
+.cover{
+    width: 100%;
+}
+
+    /* 
+=====================================================
+======================== NAV ========================
+=====================================================
+ */
+    .nav{
+        justify-items: center;
+        text-align:center;
+        margin : auto;
+
+    }
+
+ /* 
+=====================================================
+======================== MAIN =======================
+=====================================================
+ */
+
+    .Les_Simpsons{
+        justify-content: center;
+        text-align:center;
+        font-size: 270%;
+
+        margin: -7px;
+
+    }
+        
+    .noir{
+        justify-content: center;
+        text-align:justify;
+        margin: 30px;
+    }
+
+    
+
+     /* 
+=====================================================
+======================= ASIDE =======================
+=====================================================
+ */
+
+    .matt{
+        height: auto;
+        width: 100%;
+    }
+    
+    .aside{
+        text-align:justify;
+        width: 97%;
+        margin : auto;
+        padding : 1% 5px;
+        color: white;
+        background-color: #3871EC;
+    }
+
+ /* 
+=====================================================
+====================== FOOTER =======================
+=====================================================
+ */
+
+
+ .footer{
+    width: 100%;
+}
+
+
+
+}
+
